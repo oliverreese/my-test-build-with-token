@@ -1,0 +1,25 @@
+{
+  "name": "my-test-build-with-token",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oliverreese/my-test-build-with-token.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oliverreese/my-test-build-with-token/issues"
+  },
+  "homepage": "https://github.com/oliverreese/my-test-build-with-token#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "my-private-dependency": "git+https://x-oauth-basic@github.com/oliverreese/my-private-dependency.git"
+
+  }
+}
